@@ -1,4 +1,4 @@
-.PHONY: infra dev-db dev-backend dev-mobile migrate-up migrate-down migrate-create seed test-backend stop
+.PHONY: infra dev-db dev-backend dev-mobile dev-web migrate-up migrate-down migrate-create seed test-backend lint-web build-web web-install mobile-install stop
 
 # ========================
 # Infrastructure
@@ -65,3 +65,23 @@ dev-mobile:
 # Install mobile dependencies
 mobile-install:
 	cd mobile && npm install
+
+# ========================
+# Web
+# ========================
+
+# Run web app locally
+dev-web:
+	cd web && npm run dev
+
+# Install web dependencies
+web-install:
+	cd web && npm install
+
+# Build web for production
+build-web:
+	cd web && npm run build
+
+# Lint web
+lint-web:
+	cd web && npm run lint

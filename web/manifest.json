@@ -1,0 +1,9 @@
+{
+  "name": "Presenteia",
+  "short_name": "Presenteia",
+  "start_url": "/birthday/",
+  "display": "standalone",
+  "background_color": "#FAFAFA",
+  "theme_color": "#7C3AED",
+  "description": "Find the perfect gift for everyone"
+}

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Birthday Gift Helper",
-    "slug": "birthday-gift-helper",
+    "name": "Presenteia",
+    "slug": "presenteia",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
