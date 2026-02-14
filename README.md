@@ -26,13 +26,13 @@ make infra
 ### 2. Run migrations
 
 ```bash
-DATABASE_URL=postgres://birthday:birthday_secret@localhost:5432/birthday_db?sslmode=disable make migrate-up
+DATABASE_URL=postgres://birthday:birthday_secret@localhost:15432/birthday_db?sslmode=disable make migrate-up
 ```
 
 ### 3. Seed demo data (optional)
 
 ```bash
-DATABASE_URL=postgres://birthday:birthday_secret@localhost:5432/birthday_db?sslmode=disable make seed
+DATABASE_URL=postgres://birthday:birthday_secret@localhost:15432/birthday_db?sslmode=disable make seed
 ```
 
 Demo user: `demo@example.com` / `password123`
