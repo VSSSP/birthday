@@ -8,3 +8,31 @@
 .worktrees/
 .security-key
 logs/security/
+
+# Go
+backend/tmp/
+backend/*.exe
+
+# Node / Expo
+mobile/node_modules/
+mobile/.expo/
+mobile/android/
+mobile/ios/
+mobile/dist/
+mobile/web-build/
+
+# Environment files
+.env
+*.env.local
+backend/.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+vendor/
