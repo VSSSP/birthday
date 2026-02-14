@@ -9,9 +9,11 @@
 .security-key
 logs/security/
 
-# Go
+# Go binaries
 backend/tmp/
 backend/*.exe
+backend/api
+backend/migrate
 
 # Node / Expo
 mobile/node_modules/
